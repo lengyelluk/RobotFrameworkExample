@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation   Test to verify if two items can be added to cart.
+Documentation   Tests to verify if items can be added to cart.
 
 Library  SeleniumLibrary
 
