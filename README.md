@@ -4,7 +4,7 @@
 Automate a simple test of chosen book e-shop. Sort the items by price and add two items to the cart.
 
 ### Instructions
-Clone the repo and run the test using command "robot add_items_to_cart_test.robot".
+Clone the repo and run the test using command `robot add_items_to_cart_test.robot`.
 Prerequsites: python, pip, robot framework, robotframework-seleniumlibrary, webdrivermanager. 
 
 ### Project files
