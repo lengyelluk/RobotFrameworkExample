@@ -1,4 +1,6 @@
 *** Settings ***
+Documentation   Test to verify if two items can be added to cart.
+
 Library  SeleniumLibrary
 
 Resource  resources.robot
@@ -7,7 +9,7 @@ Resource  navigation.robot
 Resource  books-foreign-languages-page.robot
 Resource  cart-page.robot
 
-Suite Setup  Run Keywords  Go To Favourite e-shop  Close GDPR consent
+Suite Setup  Run Keywords  Open Favourite e-shop  Close GDPR Popup
 Suite Teardown  Run Keywords  Exit Test
 
 *** Test Cases ***
