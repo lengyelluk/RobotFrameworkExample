@@ -1,5 +1,7 @@
 *** Keywords ***
 Sort Items By Price Descending
+    Wait Until Element is Visible   xpath://h1[text()="Cudzojazyčná literatúra"]
+    Scroll Element Into View    xpath://select[@data-role="vb-list-ordering"]
     Select From List By Value   xpath://select[@data-role="vb-list-ordering"]   price desc
 
 Add Book By Index To Cart
